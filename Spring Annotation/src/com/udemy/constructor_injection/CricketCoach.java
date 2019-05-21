@@ -1,9 +1,19 @@
 package com.udemy.constructor_injection;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component("thatSillyCoach")
+
+@Component("constructorMatch")
 public class CricketCoach implements Coach {
+
+	
+	private FortuneService fortuneService;
+
+	@Autowired
+	public CricketCoach (FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+		}
 
 	@Override
 	public String getDailyWorkout() {
@@ -14,7 +24,7 @@ public class CricketCoach implements Coach {
 	@Override
 	public String getDailyFortune() {
 		
-		return null;
+		return (fortuneService.getFortuneService());
 	}
 
 	
