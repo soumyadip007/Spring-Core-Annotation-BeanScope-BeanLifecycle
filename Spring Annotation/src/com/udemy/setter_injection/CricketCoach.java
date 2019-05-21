@@ -24,6 +24,14 @@ public class CricketCoach implements Coach {
 		this.fortuneService=fortuneService;
 	}
 	
+	@Autowired
+	public void domethodInjection(FortuneService fortuneService)
+	{
+		System.out.println("Inside fortuneService method and executing Constructor");
+		this.fortuneService=fortuneService;
+		System.out.println("Inside domethodInjection");
+	
+	}
 
 	@Override
 	public String getDailyWorkout() {

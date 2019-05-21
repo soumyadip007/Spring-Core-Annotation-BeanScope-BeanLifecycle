@@ -12,4 +12,10 @@ public class HappyFortuneService implements FortuneService {
 		return "Autowiring Applied";
 	}
 
+	@Override
+	public void methodInjection() {
+		
+		System.out.println("Executing Method injection");
+	}
+
 }
