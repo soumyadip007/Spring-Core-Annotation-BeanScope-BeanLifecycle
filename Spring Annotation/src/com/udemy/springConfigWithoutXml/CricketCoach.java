@@ -5,8 +5,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 
-@Component("scopePrototype")
-@Scope("prototype")
+@Component("configCoach")
 public class CricketCoach implements Coach {
 
 
