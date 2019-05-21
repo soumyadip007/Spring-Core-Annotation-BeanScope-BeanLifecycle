@@ -23,9 +23,9 @@ public static void main(String[] args) {
 		
 		System.out.println("\nBoth objects are same = "+result);
 		
-		System.out.println("\nMemory alocation for obj is = "+obj);
+		System.out.println("\nMemory allocation for obj is = "+obj);
 
-		System.out.println("\nMemory alocation for obj1 is = "+obj1);
+		System.out.println("\nMemory allocation for obj1 is = "+obj1);
 				
 				
 		//Close the context
@@ -40,9 +40,19 @@ Output  (Singleton or Default):
 
 Both objects are same = true
 
-Memory alocation for obj is = com.udemy.scope_annotation.CricketCoach@71a794e5
+Memory allocation for obj is = com.udemy.scope_annotation.CricketCoach@71a794e5
 
-Memory alocation for obj1 is = com.udemy.scope_annotation.CricketCoach@71a794e5
+Memory allocation for obj1 is = com.udemy.scope_annotation.CricketCoach@71a794e5
 
+
+
+Output  (Prototype or Default):
+
+
+Both objects are same = false
+
+Memory allocation for obj is = com.udemy.scope_annotation.CricketCoach@3ffcd140
+
+Memory allocation for obj1 is = com.udemy.scope_annotation.CricketCoach@23bb8443
 
 */
