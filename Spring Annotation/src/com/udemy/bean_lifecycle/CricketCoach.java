@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 public class CricketCoach implements Coach {
 
 	@Autowired
-	@Qualifier("databaseFortuneService")
 	private FortuneService fortuneService;
 
 	//No Arg Constructor
