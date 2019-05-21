@@ -9,7 +9,7 @@ public class HappyFortuneService implements FortuneService {
 	@Override
 	public String getFortuneService() {
 		
-		return "Autowiring Applied with field injection";
+		return "Autowiring Applied with field injection //HappyFortuneService";
 	}
 
 	@Override
