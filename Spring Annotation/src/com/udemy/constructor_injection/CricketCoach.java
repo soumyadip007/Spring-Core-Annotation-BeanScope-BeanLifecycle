@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 
-@Component("constructorMatch")
+@Component("ConstructorMatch")
 public class CricketCoach implements Coach {
 
 	
