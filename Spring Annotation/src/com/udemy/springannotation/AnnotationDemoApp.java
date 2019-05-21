@@ -14,9 +14,13 @@ public class AnnotationDemoApp {
 		
 		//Get the bean
 		Coach obj = context.getBean("thatSillyCoach", Coach.class);
+
+		Coach obj1 = context.getBean("defaultComponents", Coach.class);
 		
 		//Call Method on the bean
 		System.out.println(obj.getDailyWorkout());
+		
+		System.out.println(obj1.getDailyWorkout());
 		
 		
 		//Close the context
