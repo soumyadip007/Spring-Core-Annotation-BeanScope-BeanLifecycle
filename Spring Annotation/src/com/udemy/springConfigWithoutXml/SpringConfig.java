@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @ComponentScan("com.udemy.springConfigWithoutXml")
-@PropertySource("Classpath.sport.properties")
+@PropertySource("classpath:sports.properties")
 public class SpringConfig {
 
 	
