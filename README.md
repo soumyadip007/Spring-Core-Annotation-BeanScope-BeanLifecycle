@@ -1,5 +1,4 @@
 # Spring-Core-Annotation-BeanScope-BeanLifecycle
-
 # Core Spring Framework Annotations
 
 @Required
